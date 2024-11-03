@@ -1,3 +1,7 @@
+address {
+  font-style: normal;
+}
+
 .header {
   display: flex;
   justify-content: center;
@@ -273,7 +277,7 @@
   line-height: 21px;
 }
 
-.adress {
+.address {
   display: block;
   width: 240px;
   line-height: 24px;
