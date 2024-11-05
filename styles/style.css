@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 92px 66px 95px 24px;
+  margin: 92px 30px 92px 24px;
   font-size: 18px;
 }
 
@@ -39,7 +39,11 @@
   font-style: normal;
   line-height: 24px;
   width: 240px;
-  letter-spacing: 1px;
+  letter-spacing: 0.3px;
+}
+
+.paragraph__with_no_letter-spacing {
+  letter-spacing: 0;
 }
 
 .underlined__address {
@@ -77,22 +81,14 @@
 }
 
 .left__aligned {
-  z-index: 1;
   line-height: 115px;
 }
 
-/* если не использовать такое позиционирование, то результат не сойдется с макетом, так как элементы
- при выравнивании только align-self встают не как в макете, а расстояние между буквами нормальное, как в макете*/
 .center__aligned {
-  position: relative;
-  top: 10px;
-  right: 31px;
   align-self: center;
 }
 
 .right__aligned {
-  position: relative;
-  top: 13px;
   align-self: flex-end;
 }
 
@@ -128,7 +124,7 @@
   text-decoration: none;
 }
 
-.cover__text-wordspacing-20 {
+.cover__text-wordspacing {
   word-spacing: 20px;
 }
 
@@ -229,7 +225,7 @@
 }
 
 .about__title {
-  margin-top: 122px;
+  margin-top: 140px;
   margin-bottom: 98px;
   font-size: 40px;
   line-height: 47px;
