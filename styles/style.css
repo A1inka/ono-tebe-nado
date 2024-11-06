@@ -83,6 +83,7 @@
   font-size: 100px;
   line-height: 1;
   letter-spacing: 30px;
+  text-transform: uppercase;
 }
 
 .left__aligned {
@@ -91,7 +92,7 @@
 
 .center__aligned {
   align-self: center;
-  margin-left: -60px;
+  margin-right: 60px;
 }
 
 .right__aligned {
@@ -216,7 +217,7 @@
 .about__logo {
   width: 240px;
   height: 240px;
-  margin: 40px auto 0;
+  margin: 38px auto 0;
   border-radius: 100%;
   padding: 63px 46px;
   background-color: #000;
@@ -252,6 +253,7 @@
   justify-content: space-between;
   align-items: start;
   margin: 0 50px 88px;
+  font-size: 18px;
 }
 
 .footer__menu-list {
