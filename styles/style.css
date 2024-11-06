@@ -87,16 +87,16 @@
 }
 
 .left__aligned {
+  text-align: start;
   line-height: 1.15;
 }
 
 .center__aligned {
-  align-self: center;
-  margin-right: 60px;
+  text-align: center;
 }
 
 .right__aligned {
-  align-self: flex-end;
+  text-align: end;
 }
 
 .letter-spacing-extended {
